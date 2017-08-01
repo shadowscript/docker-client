@@ -1,5 +1,5 @@
-# default will build image without base-devel installed 
-# to build with base-devel pass --build-arg type=devel
+# default will build image with base-devel installed 
+# to build without base-devel pass --build-arg type=archlinux
 # ARG  type=archlinux
 FROM base/devel
 
