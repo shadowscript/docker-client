@@ -1,2 +1,4 @@
-FROM kalilinux:kali-linux-docker
+FROM base:archlinux
+
+MAINTAINER Eric Caleb <ericcaleb1@gmail.com>
 
