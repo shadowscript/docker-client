@@ -1,5 +1,5 @@
 ###### Arch Linux image
 
-- If no build arguments are passed the Dockerfile will build an image without base-devel
-- To build with base-devel pass
-	``` --build-arg type=devel```
+- If no build arguments are passed the Dockerfile will build an image with base-devel
+- To build without base-devel pass
+	``` --build-arg type=archlinux```
