@@ -10,4 +10,4 @@ LABEL  maintainer="Eric Caleb <ericcaleb1@gmail.com>" version="0.1" description=
 RUN curl -o /etc/pacman.d/mirrorlist "https://www.archlinux.org/mirrorlist/?country=all&protocol=https&ip_version=6&use_mirror_status=on" &&   sed -i 's/^#//' /etc/pacman.d/mirrorlist
 
 # update to latest available build
-ONBUILD RUN pacman -Syu --noprogressbar --noconfirm
+RUN pacman -Syu --noprogressbar --noconfirm
